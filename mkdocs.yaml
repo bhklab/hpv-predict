@@ -30,5 +30,8 @@ plugins:
     - search                            # necessary for search functionality to work
     - include-markdown                  # allows for including Markdown files into another Markdown file
 
+markdown_extensions:
+    - admonition
+
 extra:
     homepage: https://bhklab.github.io/hpv-predict
